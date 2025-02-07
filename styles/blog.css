@@ -1,0 +1,95 @@
+body{
+  font-family: "Poppins", serif;
+  
+/* header  */
+Header{
+  background-color: #43439e;
+  width: auto;
+  display: flex;
+  justify-content:space-between;
+}
+.Header-banner{
+ color: aliceblue;
+ text-align: right;
+ line-height: 20px;
+
+}
+.header-btn{
+  margin-top:80px;
+}
+/* main */
+.main-container{
+
+
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  
+     
+    
+}
+.main-center img{
+  /* border: 2px solid red; */
+  width: 500px;
+  height: 500px;
+  margin-top:-10px;
+
+  background-color: rgb(231, 237, 237);
+  border-radius: 800px;
+  
+
+}
+.main-center{
+  align-content: center;
+  line-height: 20px;
+}
+/* sahdsin */
+.sadhin-title{
+  text-align: center;
+  margin: 80px ;
+ 
+}
+.sadhin-container{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 200px;
+}
+.colour-gray{
+  color: gray;
+}
+.keep-container{
+  /* border: 2px solid red; */
+background:url("../logos/gradient1.png");
+background-repeat: no-repeat;
+color: aliceblue;
+margin: 0px 80px;
+}
+/* footer */
+footer{
+  background: #000;
+  color: aliceblue;
+  margin-top: 50px;
+  padding:20px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-item{
+  display: flex;
+}
+.logo-item img{
+  margin: 0px 5px;
+}
+
+}
+.button-item{
+  margin-top: 20px;
+  width: auto;
+  height: 45px;
+  border: 2px solid rgb(252, 232, 232);
+  border-radius: 5px;
+  background-color:#7b7bde;
+}
